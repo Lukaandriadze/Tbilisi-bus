@@ -1,0 +1,2432 @@
+[
+{
+    "model": "buses.buses",
+    "pk": 1,
+    "fields": {
+        "name": "101",
+        "stop_id": "1:R216088",
+        "BusNam": "სოფ. კრწანისი - ვარკეთილი-3 IV მ/რ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 2,
+    "fields": {
+        "name": "102",
+        "stop_id": "1:R216082",
+        "BusNam": "№6-ე სასჯელ-აღსრულების დაწესებულება - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 3,
+    "fields": {
+        "name": "107",
+        "stop_id": "1:R216109",
+        "BusNam": "სოფ. წოდორეთი - მ/ს დელისი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 4,
+    "fields": {
+        "name": "292",
+        "stop_id": "1:R113218",
+        "BusNam": "მ/ს ახმეტელის თეატრი - თბილისი მოლი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 5,
+    "fields": {
+        "name": "293",
+        "stop_id": "1:R101490",
+        "BusNam": "მ/ს სარაჯიშვილი - დიდი დიღმის I-II მ/რ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 6,
+    "fields": {
+        "name": "294",
+        "stop_id": "1:R101498",
+        "BusNam": "მუხიანის III მ/რ - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 7,
+    "fields": {
+        "name": "295",
+        "stop_id": "1:R101593",
+        "BusNam": "აფრიკის დას. - მ/ს ვარკეთილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 8,
+    "fields": {
+        "name": "296",
+        "stop_id": "1:R101654",
+        "BusNam": "წმინდა ბარბარეს უბანი - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 9,
+    "fields": {
+        "name": "297",
+        "stop_id": "1:R101831",
+        "BusNam": "გლდანის ტბის დას. - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 10,
+    "fields": {
+        "name": "298",
+        "stop_id": "1:R99201",
+        "BusNam": "სადგურის მოედანი 2 - საბურთალოს კვარტალები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 11,
+    "fields": {
+        "name": "299",
+        "stop_id": "1:R99222",
+        "BusNam": "ლუბლიანას ქ. - მ/ს დიდუბე"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 12,
+    "fields": {
+        "name": "300",
+        "stop_id": "1:R99189",
+        "BusNam": "ზაარბრიუკენის მ-ნი - მარიჯანის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 13,
+    "fields": {
+        "name": "301",
+        "stop_id": "1:R29981",
+        "BusNam": "წმინდა ბარბარეს უბანი - პოლიტკოვსკაიას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 14,
+    "fields": {
+        "name": "302",
+        "stop_id": "1:R98273",
+        "BusNam": "დიდი დიღომი IVმკ/რ - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 15,
+    "fields": {
+        "name": "303",
+        "stop_id": "1:R99230",
+        "BusNam": "ვარკეთილი-3 IV მ/რ - მ/ს ვარკეთილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 16,
+    "fields": {
+        "name": "304",
+        "stop_id": "1:R97674",
+        "BusNam": "გლდანის VII - VIII მ/რ - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 17,
+    "fields": {
+        "name": "305",
+        "stop_id": "1:R97485",
+        "BusNam": "აფრიკის დას. (ქიზიყის ქ.) - ბარათაშვილის ქ. (კონკა)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 18,
+    "fields": {
+        "name": "306",
+        "stop_id": "1:R98190",
+        "BusNam": "ბელიაშვილის ქ. (დიღომი) - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 19,
+    "fields": {
+        "name": "307",
+        "stop_id": "1:R98113",
+        "BusNam": "სადგურის მოედანი - ვაკე-ბაგები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 20,
+    "fields": {
+        "name": "308",
+        "stop_id": "1:R97694",
+        "BusNam": "გლდანის VII-VIII მ/კ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 21,
+    "fields": {
+        "name": "309",
+        "stop_id": "1:R97714",
+        "BusNam": "ვარკეთილის IV მ/რ - ნუგრაზ ენდელაძის მ-ნი (ვაკე)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 22,
+    "fields": {
+        "name": "310",
+        "stop_id": "1:R98476",
+        "BusNam": "ვარკეთილის IV მ/რ - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 23,
+    "fields": {
+        "name": "311",
+        "stop_id": "1:R97614",
+        "BusNam": "დიდი დიღმის IV მ/რ - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 24,
+    "fields": {
+        "name": "312",
+        "stop_id": "1:R97513",
+        "BusNam": "დიდი ლილო  - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 25,
+    "fields": {
+        "name": "313",
+        "stop_id": "1:R97489",
+        "BusNam": "მ/ს ახმეტელის თეატრი - პაიჭაძის ქ. (დიღომი)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 26,
+    "fields": {
+        "name": "314",
+        "stop_id": "1:R97517",
+        "BusNam": "დიდი დიღმის IV მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 27,
+    "fields": {
+        "name": "315",
+        "stop_id": "1:R97521",
+        "BusNam": "დიდი დიღმის IV მ/რ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 28,
+    "fields": {
+        "name": "316",
+        "stop_id": "1:R98445",
+        "BusNam": "ბარათაშვილის ქ. - კიკეთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 29,
+    "fields": {
+        "name": "317",
+        "stop_id": "1:R97525",
+        "BusNam": "მუხიანის IV ბ მ/რ  - ფიროსმანის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 30,
+    "fields": {
+        "name": "318",
+        "stop_id": "1:R97529",
+        "BusNam": "პატარა ლილო - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 31,
+    "fields": {
+        "name": "319",
+        "stop_id": "1:R80273",
+        "BusNam": "მ/ს ვარკეთილი - სადგურის მოედანი1"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 32,
+    "fields": {
+        "name": "320",
+        "stop_id": "1:R97533",
+        "BusNam": "დიღმის მასივი - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 33,
+    "fields": {
+        "name": "321",
+        "stop_id": "1:R55124",
+        "BusNam": "დიდი დიღმის IV მ/რ - მ/ს სარაჯიშვილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 34,
+    "fields": {
+        "name": "322",
+        "stop_id": "1:R97618",
+        "BusNam": "სოფელი ნასაგური  -  მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 35,
+    "fields": {
+        "name": "323",
+        "stop_id": "1:R97622",
+        "BusNam": "გლდანის VII-VIII მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 36,
+    "fields": {
+        "name": "324",
+        "stop_id": "1:R97638",
+        "BusNam": "წავკისი - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 37,
+    "fields": {
+        "name": "325",
+        "stop_id": "1:R97626",
+        "BusNam": "ვაზისუბნის II მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 38,
+    "fields": {
+        "name": "326",
+        "stop_id": "1:R97493",
+        "BusNam": "ბარათაშვილის ქ. - პოლიტკოვსკაიას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 39,
+    "fields": {
+        "name": "327",
+        "stop_id": "1:R97630",
+        "BusNam": "ვაშლიჯვრის დასახლება - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 40,
+    "fields": {
+        "name": "328",
+        "stop_id": "1:R97634",
+        "BusNam": "მნათობის ქ. - მარჯანიშვილის მ-ნი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 41,
+    "fields": {
+        "name": "329",
+        "stop_id": "1:R97678",
+        "BusNam": "სადგურის მოედანი - სოფ. თხინვალი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 42,
+    "fields": {
+        "name": "330",
+        "stop_id": "1:R80661",
+        "BusNam": "ცაცა ამირეჯიბის  ქ. - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 43,
+    "fields": {
+        "name": "331",
+        "stop_id": "1:R98138",
+        "BusNam": "კრწანისის ქუჩა - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 44,
+    "fields": {
+        "name": "332",
+        "stop_id": "1:R29934",
+        "BusNam": "ნუცუბიძის პლატო IV მ/რ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 45,
+    "fields": {
+        "name": "333",
+        "stop_id": "1:R90569",
+        "BusNam": "ვაზისუბნის II მ/რ - თბილისი მოლი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 46,
+    "fields": {
+        "name": "334",
+        "stop_id": "1:R29973",
+        "BusNam": "წყნეთი - მ/ს დელისი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 47,
+    "fields": {
+        "name": "335",
+        "stop_id": "1:R97690",
+        "BusNam": "გლდანი VII - VIII მ/რ - დიდი დიღმის IV მ/რ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 48,
+    "fields": {
+        "name": "336",
+        "stop_id": "1:R97702",
+        "BusNam": "ავიაქიმიის ქ. (ლოტკინი) - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 49,
+    "fields": {
+        "name": "337",
+        "stop_id": "1:R97706",
+        "BusNam": "სადგურის მოედანი - აეროპორტი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 50,
+    "fields": {
+        "name": "338",
+        "stop_id": "1:R97710",
+        "BusNam": "აგრარული უნივერსიტეტი -  მ/ს დიდუბე (ქვედა)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 51,
+    "fields": {
+        "name": "339",
+        "stop_id": "1:R44533",
+        "BusNam": "გლდანის VII-VIII მ/რ - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 52,
+    "fields": {
+        "name": "340",
+        "stop_id": "1:R97718",
+        "BusNam": "ვარკეთილის მეურნეობა - ლობჟანიძის ქ. (ისანი)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 53,
+    "fields": {
+        "name": "341",
+        "stop_id": "1:R97722",
+        "BusNam": "სოფელი წინუბანი - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 54,
+    "fields": {
+        "name": "342",
+        "stop_id": "1:R97726",
+        "BusNam": "იყალთოს გორა - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 55,
+    "fields": {
+        "name": "343",
+        "stop_id": "1:R30721",
+        "BusNam": "ვაზისუბნის II მ/რ - ზემო ფონიჭალა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 56,
+    "fields": {
+        "name": "344",
+        "stop_id": "1:R30746",
+        "BusNam": "ბარათაშვილის ქ. - ზემო ფონიჭალის დასახლება"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 57,
+    "fields": {
+        "name": "345",
+        "stop_id": "1:R32821",
+        "BusNam": "ქვემო ფონოჭალის დასახლება - ვაკე-ბაგები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 58,
+    "fields": {
+        "name": "346",
+        "stop_id": "1:R32831",
+        "BusNam": "ქვემო ფონიჭალის დასახლება-ჰუალინგ თბილისი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 59,
+    "fields": {
+        "name": "347",
+        "stop_id": "1:R98195",
+        "BusNam": "ნუცუბიძის I მ/რ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 60,
+    "fields": {
+        "name": "348",
+        "stop_id": "1:R98450",
+        "BusNam": "სოფ. გლდანი - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 61,
+    "fields": {
+        "name": "349",
+        "stop_id": "1:R98201",
+        "BusNam": "ნუცუბიძის პლატო III მ/რ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 62,
+    "fields": {
+        "name": "350",
+        "stop_id": "1:R98206",
+        "BusNam": "თბილისის ზღვის პლაზა - ვაზისუბნის III მ/რ, II კვ. - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 63,
+    "fields": {
+        "name": "351",
+        "stop_id": "1:R98211",
+        "BusNam": "გლდანი-გლდანულა - ვაკე-ბაგები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 64,
+    "fields": {
+        "name": "352",
+        "stop_id": "1:R98221",
+        "BusNam": "დოლიძის ქ. - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 65,
+    "fields": {
+        "name": "353",
+        "stop_id": "1:R98227",
+        "BusNam": "კუკია - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 66,
+    "fields": {
+        "name": "354",
+        "stop_id": "1:R97698",
+        "BusNam": "სადგურის მოედანი - წყნეთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 67,
+    "fields": {
+        "name": "355",
+        "stop_id": "1:R98186",
+        "BusNam": "სოფელი გლდანი - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 68,
+    "fields": {
+        "name": "356",
+        "stop_id": "1:R98279",
+        "BusNam": "ორხევი - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 69,
+    "fields": {
+        "name": "357",
+        "stop_id": "1:R98463",
+        "BusNam": "ზაჰესი - მ/ს დიდუბე (ქვედა)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 70,
+    "fields": {
+        "name": "358",
+        "stop_id": "1:R98284",
+        "BusNam": "ნუგზარ ენდელაძის მ-ნი (ვაკე) - ბარათაშვილის ქუჩა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 71,
+    "fields": {
+        "name": "359",
+        "stop_id": "1:R98289",
+        "BusNam": "ბარათაშვილის ქ. - ზაარბრიუკენი მ-ნ - ვაკე - ბაგები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 72,
+    "fields": {
+        "name": "360",
+        "stop_id": "1:R98294",
+        "BusNam": "მ/ს \"ღრმაღელე\"- გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 73,
+    "fields": {
+        "name": "361",
+        "stop_id": "1:R97481",
+        "BusNam": "ლილო-ლოჭინი - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 74,
+    "fields": {
+        "name": "362",
+        "stop_id": "1:R98302",
+        "BusNam": "ზღვის უბნის III მ/რ, IV კვ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 75,
+    "fields": {
+        "name": "363",
+        "stop_id": "1:R30661",
+        "BusNam": "სოფელი თხინვალი - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 76,
+    "fields": {
+        "name": "364",
+        "stop_id": "1:R98471",
+        "BusNam": "მ/ს \"რუსთაველი\" - მთაწმინდის პარკი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 77,
+    "fields": {
+        "name": "365",
+        "stop_id": "1:R98216",
+        "BusNam": "სოფელი გლდანი - ავჭალა - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 78,
+    "fields": {
+        "name": "366",
+        "stop_id": "1:R99060",
+        "BusNam": "მ/ს ვარკეთილი - ვარკეთილის ზემო პლატო"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 79,
+    "fields": {
+        "name": "367",
+        "stop_id": "1:R97497",
+        "BusNam": "სოფ. დიღომი - მ/ს დიდუბე"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 80,
+    "fields": {
+        "name": "368",
+        "stop_id": "1:R98308",
+        "BusNam": "9 ძმის ქ. -ცაიშის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 81,
+    "fields": {
+        "name": "369",
+        "stop_id": "1:R98481",
+        "BusNam": "მ/ს დიდუბე (ზედა) - მ/ს გოცირიძე"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 82,
+    "fields": {
+        "name": "370",
+        "stop_id": "1:R98313",
+        "BusNam": "ბიჭვინთის ქ. (ავჭალა) - ფიროსმანის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 83,
+    "fields": {
+        "name": "371",
+        "stop_id": "1:R98318",
+        "BusNam": "ვარკეთილი-3 IV მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 84,
+    "fields": {
+        "name": "372",
+        "stop_id": "1:R98323",
+        "BusNam": "ნაკადულის ქ . - წმინდა ბარბარეს უბანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 85,
+    "fields": {
+        "name": "373",
+        "stop_id": "1:R98328",
+        "BusNam": "გლდანულა - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 86,
+    "fields": {
+        "name": "374",
+        "stop_id": "1:R98438",
+        "BusNam": "ტაბახმელა - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 87,
+    "fields": {
+        "name": "375",
+        "stop_id": "1:R98334",
+        "BusNam": "ზღვის უბნის III მ/რ, IV კვ - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 88,
+    "fields": {
+        "name": "376",
+        "stop_id": "1:R97682",
+        "BusNam": "აფრიკის დას. (ქიზიყის ქ.) - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 89,
+    "fields": {
+        "name": "377",
+        "stop_id": "1:R74912",
+        "BusNam": "თბილისის ზღვის პლაზა - ვაზისუბნის III მ/რ, II კვ.- მ/ს ვარკეთილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 90,
+    "fields": {
+        "name": "378",
+        "stop_id": "1:R98340",
+        "BusNam": "ჯაფარიძის ქუჩა - სადგურის მოედანი 1"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 91,
+    "fields": {
+        "name": "379",
+        "stop_id": "1:R98346",
+        "BusNam": "მუხიანის III მ/რ - მ/ს ახმეტელის თეატრი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 92,
+    "fields": {
+        "name": "380",
+        "stop_id": "1:R97505",
+        "BusNam": "კოჯორი - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 93,
+    "fields": {
+        "name": "381",
+        "stop_id": "1:R97509",
+        "BusNam": "ზაჰესი - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 94,
+    "fields": {
+        "name": "382",
+        "stop_id": "1:R98458",
+        "BusNam": "შინდისი - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 95,
+    "fields": {
+        "name": "383",
+        "stop_id": "1:R30691",
+        "BusNam": "მ/ს სახელმწიფო უნივერსიტეტი - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 96,
+    "fields": {
+        "name": "384",
+        "stop_id": "1:R98379",
+        "BusNam": "პატარა დიღომი - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 97,
+    "fields": {
+        "name": "385",
+        "stop_id": "1:R29925",
+        "BusNam": "ვაკე - საბურთალო"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 98,
+    "fields": {
+        "name": "386",
+        "stop_id": "1:R98384",
+        "BusNam": "მუხიანის III მ/რ - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 99,
+    "fields": {
+        "name": "387",
+        "stop_id": "1:R30682",
+        "BusNam": "საბურთალო-ვაკე"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 100,
+    "fields": {
+        "name": "388",
+        "stop_id": "1:R98394",
+        "BusNam": "ნუცუბიძის II-IV მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 101,
+    "fields": {
+        "name": "389",
+        "stop_id": "1:R98399",
+        "BusNam": "მ/ს დიდუბე - მ/ს სახელმწიფო უნივერსიტეტი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 102,
+    "fields": {
+        "name": "390",
+        "stop_id": "1:R98404",
+        "BusNam": "ოქროყანა - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 103,
+    "fields": {
+        "name": "391",
+        "stop_id": "1:R98409",
+        "BusNam": "მ/ს \"ავლაბარი\" -  გოთუას ქუჩა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 104,
+    "fields": {
+        "name": "392",
+        "stop_id": "1:R98417",
+        "BusNam": "სადგურის მოედანი 1 - სახ. უნივერსიტეტის მ/კ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 105,
+    "fields": {
+        "name": "393",
+        "stop_id": "1:R97730",
+        "BusNam": "ყვარლის ქ. (მეტრომშენი) - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 106,
+    "fields": {
+        "name": "394",
+        "stop_id": "1:R98422",
+        "BusNam": "ზღვის უბნის III მ/რ, IV კვ - მ/ს დიდუბე (ზედა)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 107,
+    "fields": {
+        "name": "395",
+        "stop_id": "1:R98427",
+        "BusNam": "მუხიანის III მ/რ - ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 108,
+    "fields": {
+        "name": "396",
+        "stop_id": "1:R99057",
+        "BusNam": "აეროპორტის დასახლება - მ/ს ისანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 109,
+    "fields": {
+        "name": "397",
+        "stop_id": "1:R98389",
+        "BusNam": "ბარათაშვილის ქ. - საბურთალო-ვაკე"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 110,
+    "fields": {
+        "name": "398",
+        "stop_id": "1:R98433",
+        "BusNam": "ნუცუბიძის II-IV-V მ/რ   - მ/ს \"დელისი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 111,
+    "fields": {
+        "name": "399",
+        "stop_id": "1:R99180",
+        "BusNam": "მ/ს ვარკეთილი - ლილო მოლი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 112,
+    "fields": {
+        "name": "401",
+        "stop_id": "1:minibusR1117",
+        "BusNam": "მ/ს სახელმწიფო უნივერსიტეტი - იოსელიანის IV შესახვევი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 113,
+    "fields": {
+        "name": "402",
+        "stop_id": "1:minibusR1188",
+        "BusNam": "ყიფშიძის ქ. - მრგვალი ბაღი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 114,
+    "fields": {
+        "name": "403",
+        "stop_id": "1:minibusR11458",
+        "BusNam": "ვარკეთილი 3, II მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 115,
+    "fields": {
+        "name": "404",
+        "stop_id": "1:minibusR1162",
+        "BusNam": "მ/ს სახელმწიფო უნივერსიტეტი - ნაფეტვრების მიმართულებით"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 116,
+    "fields": {
+        "name": "405",
+        "stop_id": "1:minibusR1227",
+        "BusNam": "ნუცუბიძის V მ/რ - მ/ს \"დელისი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 117,
+    "fields": {
+        "name": "406",
+        "stop_id": "1:minibusR11416",
+        "BusNam": "ვარკეთილი IV მ/რ, II რიგი - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 118,
+    "fields": {
+        "name": "407",
+        "stop_id": "1:minibusR11422",
+        "BusNam": "დირსი - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 119,
+    "fields": {
+        "name": "408",
+        "stop_id": "1:minibusR1766",
+        "BusNam": "მ/ს \"რუსთაველი\" - მ/ს \"თავისუფლების მოედანი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 120,
+    "fields": {
+        "name": "409",
+        "stop_id": "1:minibusR2141",
+        "BusNam": "ქვემო ფონიჭალა - ზემო ფონიჭალა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 121,
+    "fields": {
+        "name": "410",
+        "stop_id": "1:minibusR2092",
+        "BusNam": "ღოღობერიძის ქ.- რუსთავის გზატკ. - თავისუფლების ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 122,
+    "fields": {
+        "name": "411",
+        "stop_id": "1:minibusR2111",
+        "BusNam": "მცხეთელის ქ. - ქვემო ფონიჭალა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 123,
+    "fields": {
+        "name": "412",
+        "stop_id": "1:minibusR11452",
+        "BusNam": "აფხაზეთის ქ. - ქვემო ფონიჭალა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 124,
+    "fields": {
+        "name": "413",
+        "stop_id": "1:minibusR2814",
+        "BusNam": "ვარკეთილი 3, II მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 125,
+    "fields": {
+        "name": "414",
+        "stop_id": "1:minibusR2695",
+        "BusNam": "გადასასვლელი ხიდი - ძმობის II ქუჩა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 126,
+    "fields": {
+        "name": "415",
+        "stop_id": "1:minibusR12833",
+        "BusNam": "მ/ს ვარკეთილი - სამხედრო დასახლება"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 127,
+    "fields": {
+        "name": "416",
+        "stop_id": "1:minibusR24135",
+        "BusNam": "სადგურის მოედანი - ლომთათიძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 128,
+    "fields": {
+        "name": "417",
+        "stop_id": "1:minibusR11356",
+        "BusNam": "გიორგიწმინდა - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 129,
+    "fields": {
+        "name": "418",
+        "stop_id": "1:minibusR11398",
+        "BusNam": "ივერთუბანი - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 130,
+    "fields": {
+        "name": "419",
+        "stop_id": "1:minibusR1648",
+        "BusNam": "მ/ს სახ. უნივერსიტეტი - სოფ. აგარაკები"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 131,
+    "fields": {
+        "name": "420",
+        "stop_id": "1:minibusR2726",
+        "BusNam": "მ/ს \"რუსთაველი\" - ჯაფარიძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 132,
+    "fields": {
+        "name": "421",
+        "stop_id": "1:minibusR13291",
+        "BusNam": "ზღვისუბანი III-IV მ/რ - მ/ს \"გურამიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 133,
+    "fields": {
+        "name": "422",
+        "stop_id": "1:minibusR11362",
+        "BusNam": "სოფ. დიღომი - დიდი დიღომი - მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 134,
+    "fields": {
+        "name": "423",
+        "stop_id": "1:minibusR2759",
+        "BusNam": "ვარკეთილი, ზემო პლატო II მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 135,
+    "fields": {
+        "name": "424",
+        "stop_id": "1:minibusR2841",
+        "BusNam": "მესამე მასივი - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 136,
+    "fields": {
+        "name": "425",
+        "stop_id": "1:minibusR2655",
+        "BusNam": "კონსტანტინე ამირეჯიბის ქ - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 137,
+    "fields": {
+        "name": "426",
+        "stop_id": "1:minibusR3097",
+        "BusNam": "გლდანის II-IV მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 138,
+    "fields": {
+        "name": "427",
+        "stop_id": "1:minibusR11434",
+        "BusNam": "გორგასლის შეს. - გრიშაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 139,
+    "fields": {
+        "name": "428",
+        "stop_id": "1:minibusR25003",
+        "BusNam": "მ/ს ისანი - ყვარლისა და თეოდორ უშაკოვის ქუჩების გადაკვეთა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 140,
+    "fields": {
+        "name": "429",
+        "stop_id": "1:minibusR2603",
+        "BusNam": "მუხიანი IVბ მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 141,
+    "fields": {
+        "name": "430",
+        "stop_id": "1:minibusR12857",
+        "BusNam": "კვირაცხოვლის ქ. - დავით აღმაშენებლის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 142,
+    "fields": {
+        "name": "431",
+        "stop_id": "1:minibusR24637",
+        "BusNam": "ბიჭვინთის ქ. - იონა ვაკელის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 143,
+    "fields": {
+        "name": "432",
+        "stop_id": "1:minibusR25727",
+        "BusNam": "შანავას ქ. - მ/ს სარაჯიშვილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 144,
+    "fields": {
+        "name": "433",
+        "stop_id": "1:minibusR11404",
+        "BusNam": "კვანტალიანის ქ. - მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 145,
+    "fields": {
+        "name": "434",
+        "stop_id": "1:minibusR12797",
+        "BusNam": "საინგილოს ქ. - მ/ს \"ავლაბარი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 146,
+    "fields": {
+        "name": "435",
+        "stop_id": "1:minibusR11368",
+        "BusNam": "იოსელიანის ქ. - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 147,
+    "fields": {
+        "name": "436",
+        "stop_id": "1:minibusR2442",
+        "BusNam": "ჯავის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 148,
+    "fields": {
+        "name": "437",
+        "stop_id": "1:minibusR2463",
+        "BusNam": "სამღერეთის ქ. - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 149,
+    "fields": {
+        "name": "438",
+        "stop_id": "1:minibusR12827",
+        "BusNam": "ჭიჭინაძის ქ. - სადგური ველი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 150,
+    "fields": {
+        "name": "439",
+        "stop_id": "1:minibusR24247",
+        "BusNam": "რომან ჭელიძის ქ. - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 151,
+    "fields": {
+        "name": "440",
+        "stop_id": "1:minibusR24309",
+        "BusNam": "გედევანიშვილის ქ. - მ/ს \"ავლაბარი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 152,
+    "fields": {
+        "name": "441",
+        "stop_id": "1:minibusR13277",
+        "BusNam": "სოფ. დიღომი, აღმაშენებლის 85 - რუსთაველის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 153,
+    "fields": {
+        "name": "442",
+        "stop_id": "1:minibusR25567",
+        "BusNam": "დიდი დიღომი IV მ/რ - მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 154,
+    "fields": {
+        "name": "443",
+        "stop_id": "1:minibusR13346",
+        "BusNam": "სოფ. თელოვანი - სოფ. დიღომი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 155,
+    "fields": {
+        "name": "444",
+        "stop_id": "1:minibusR2770",
+        "BusNam": "ზღვისუბნის IV მ/რ - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 156,
+    "fields": {
+        "name": "445",
+        "stop_id": "1:minibusR2478",
+        "BusNam": "ბარონ დე ბაის ქ. ავთანდილის ქ. ლ. ანდრონიკაშვილის ქ. მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 157,
+    "fields": {
+        "name": "446",
+        "stop_id": "1:minibusR13486",
+        "BusNam": "დიდი ტბა, კვეესის ქ. - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 158,
+    "fields": {
+        "name": "447",
+        "stop_id": "1:minibusR1249",
+        "BusNam": "შანხაის დასახლება - მ/ს \"დელისი\" - აბულაძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 159,
+    "fields": {
+        "name": "448",
+        "stop_id": "1:minibusR2536",
+        "BusNam": "გომარეთის ქ. - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 160,
+    "fields": {
+        "name": "449",
+        "stop_id": "1:minibusR12821",
+        "BusNam": "ჭავჭავაძის გამზ. 83 - ვაკის პარკი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 161,
+    "fields": {
+        "name": "450",
+        "stop_id": "1:minibusR12815",
+        "BusNam": "კაკლების დას. - ვაკის პარკი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 162,
+    "fields": {
+        "name": "451",
+        "stop_id": "1:minibusR11374",
+        "BusNam": "მ/ს \"მარჯანიშვილი\" - პეტრე ბაგრატიონის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 163,
+    "fields": {
+        "name": "452",
+        "stop_id": "1:minibusR25642",
+        "BusNam": "მ/ს \"სარაჯიშვილი\" - ელვერ კუპატაძის გასასვლელი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 164,
+    "fields": {
+        "name": "453",
+        "stop_id": "1:minibusR2848",
+        "BusNam": "ზღვისუბნის IV მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 165,
+    "fields": {
+        "name": "454",
+        "stop_id": "1:minibusR13363",
+        "BusNam": "ვარკეთილის 3, IIIა მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 166,
+    "fields": {
+        "name": "455",
+        "stop_id": "1:minibusR24239",
+        "BusNam": "ვაზისუბნის IIა მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 167,
+    "fields": {
+        "name": "456",
+        "stop_id": "1:minibusR25630",
+        "BusNam": "ლილო მოლი - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 168,
+    "fields": {
+        "name": "457",
+        "stop_id": "1:minibusR1734",
+        "BusNam": "სადგურის მოედანი - ბესიკის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 169,
+    "fields": {
+        "name": "458",
+        "stop_id": "1:minibusR25672",
+        "BusNam": "მ/ს დიდუბე - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 170,
+    "fields": {
+        "name": "459",
+        "stop_id": "1:minibusR2734",
+        "BusNam": "ბობ უოლშის ქ. - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 171,
+    "fields": {
+        "name": "460",
+        "stop_id": "1:minibusR25584",
+        "BusNam": "დიდი დიღომი IV მ/რ - თბილისი მოლი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 172,
+    "fields": {
+        "name": "461",
+        "stop_id": "1:minibusR25850",
+        "BusNam": "მუხიანის აგარაკები (ზნაკვის ქ.) - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 173,
+    "fields": {
+        "name": "462",
+        "stop_id": "1:minibusR25511",
+        "BusNam": "რაფაელ დვალის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 174,
+    "fields": {
+        "name": "463",
+        "stop_id": "1:minibusR1902",
+        "BusNam": "მშვიდობის ქ. - ზაჰესის ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 175,
+    "fields": {
+        "name": "464",
+        "stop_id": "1:minibusR1865",
+        "BusNam": "ბილფილდის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 176,
+    "fields": {
+        "name": "465",
+        "stop_id": "1:minibusR24474",
+        "BusNam": "მ/ს სადგურის მოედანი - დოლიძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 177,
+    "fields": {
+        "name": "466",
+        "stop_id": "1:minibusR1265",
+        "BusNam": "შატბერაშვილის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 178,
+    "fields": {
+        "name": "468",
+        "stop_id": "1:minibusR11410",
+        "BusNam": "სადგურის მოედანი - ჟვანიას ქ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 179,
+    "fields": {
+        "name": "469",
+        "stop_id": "1:minibusR25222",
+        "BusNam": "მ/ს დიდუბე - მუხადგვერდის სასაფლაო"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 180,
+    "fields": {
+        "name": "470",
+        "stop_id": "1:minibusR24954",
+        "BusNam": "ვარკეთილი 3, IV მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 181,
+    "fields": {
+        "name": "471",
+        "stop_id": "1:minibusR24981",
+        "BusNam": "ვარკეთილი 3, I მ/რ - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 182,
+    "fields": {
+        "name": "472",
+        "stop_id": "1:minibusR25521",
+        "BusNam": "სახელმწიფო უნივერსიტეტის  მე-10 კორპუსი - ვლადიმერ ლობჟანიძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 183,
+    "fields": {
+        "name": "473",
+        "stop_id": "1:minibusR11392",
+        "BusNam": "მეუნარგიას ქ. - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 184,
+    "fields": {
+        "name": "474",
+        "stop_id": "1:minibusR24418",
+        "BusNam": "კუპატაძის გას. - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 185,
+    "fields": {
+        "name": "475",
+        "stop_id": "1:minibusR24202",
+        "BusNam": "ზაჰესის დას. - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 186,
+    "fields": {
+        "name": "476",
+        "stop_id": "1:minibusR1688",
+        "BusNam": "მინდელის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 187,
+    "fields": {
+        "name": "477",
+        "stop_id": "1:minibusR24403",
+        "BusNam": "სადგურის მოედანი - სამშვილდის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 188,
+    "fields": {
+        "name": "478",
+        "stop_id": "1:minibusR11446",
+        "BusNam": "მეველეს ქ. - მ/ს ავლაბარი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 189,
+    "fields": {
+        "name": "479",
+        "stop_id": "1:minibusR2948",
+        "BusNam": "მუჯირიშვილის ქ. - მ/ს \"ისანი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 190,
+    "fields": {
+        "name": "480",
+        "stop_id": "1:minibusR2425",
+        "BusNam": "ხოჭოს ტბის ქ. - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 191,
+    "fields": {
+        "name": "481",
+        "stop_id": "1:minibusR12809",
+        "BusNam": "კიკეთი - წყნეთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 192,
+    "fields": {
+        "name": "482",
+        "stop_id": "1:minibusR1805",
+        "BusNam": "სოფ. ახალდაბა - წყნეთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 193,
+    "fields": {
+        "name": "483",
+        "stop_id": "1:minibusR1847",
+        "BusNam": "მაია წყნეთელის ძეგლი - მაია წყნეთელის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 194,
+    "fields": {
+        "name": "484",
+        "stop_id": "1:minibusR12839",
+        "BusNam": "დ.ამილახვრის ქ. 46 - არსენას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 195,
+    "fields": {
+        "name": "485",
+        "stop_id": "1:minibusR12851",
+        "BusNam": "მაია წყნეთელის ძეგლი - საირმის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 196,
+    "fields": {
+        "name": "486",
+        "stop_id": "1:minibusR2505",
+        "BusNam": "მ/ს ახმეტელის თეატრი - გლდანის ხევის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 197,
+    "fields": {
+        "name": "487",
+        "stop_id": "1:minibusR12803",
+        "BusNam": "გრიშაშვილის ქ. - ჩოლოყაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 198,
+    "fields": {
+        "name": "488",
+        "stop_id": "1:minibusR25721",
+        "BusNam": "მ/ს ახმეტელის თეატრი - ნოზაძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 199,
+    "fields": {
+        "name": "489",
+        "stop_id": "1:minibusR24154",
+        "BusNam": "მ/ს სამგორი (ზედა გასასვლელი) - ისთ ფოინთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 200,
+    "fields": {
+        "name": "490",
+        "stop_id": "1:minibusR11380",
+        "BusNam": "სადგურის მოედანი - მნათობის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 201,
+    "fields": {
+        "name": "491",
+        "stop_id": "1:minibusR12845",
+        "BusNam": "ნავთლუღი II-ის დას. - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 202,
+    "fields": {
+        "name": "492",
+        "stop_id": "1:minibusR25755",
+        "BusNam": "ბერთუბნის ქ. - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 203,
+    "fields": {
+        "name": "493",
+        "stop_id": "1:minibusR11428",
+        "BusNam": "თბილისის ზღვის პლაზა - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 204,
+    "fields": {
+        "name": "494",
+        "stop_id": "1:minibusR13395",
+        "BusNam": "მუხიანის აგარაკები - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 205,
+    "fields": {
+        "name": "495",
+        "stop_id": "1:minibusR25014",
+        "BusNam": "ვარკეთილის მეურნეობა - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 206,
+    "fields": {
+        "name": "496",
+        "stop_id": "1:minibusR2666",
+        "BusNam": "გლდანის VIII მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 207,
+    "fields": {
+        "name": "497",
+        "stop_id": "1:minibusR24335",
+        "BusNam": "წულუკიძის ქ. - ბახტრიონის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 208,
+    "fields": {
+        "name": "498",
+        "stop_id": "1:minibusR25826",
+        "BusNam": "ოდიშელიძის  ქ. - ჭილაძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 209,
+    "fields": {
+        "name": "501",
+        "stop_id": "1:minibusR13421",
+        "BusNam": "გადასასვლელი ხიდი - აფხაზეთის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 210,
+    "fields": {
+        "name": "502",
+        "stop_id": "1:minibusR13410",
+        "BusNam": "მახათას მთა  - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 211,
+    "fields": {
+        "name": "503",
+        "stop_id": "1:minibusR13383",
+        "BusNam": "მაია წყნეთელის ძეგლი - ბეთანია"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 212,
+    "fields": {
+        "name": "504",
+        "stop_id": "1:minibusR2588",
+        "BusNam": "თიანეთის ქ. - წინამძღვრიშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 213,
+    "fields": {
+        "name": "505",
+        "stop_id": "1:minibusR13371",
+        "BusNam": "ონკოლოგიის კვლევითი ცენტრი - მ/ს \"დელისი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 214,
+    "fields": {
+        "name": "506",
+        "stop_id": "1:minibusR13355",
+        "BusNam": "ლილო, თენგიზ სტურუას ქ. - ლილო მოლი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 215,
+    "fields": {
+        "name": "507",
+        "stop_id": "1:minibusR13335",
+        "BusNam": "ზღვის უბნის IV მ/რ - მ/ს სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 216,
+    "fields": {
+        "name": "508",
+        "stop_id": "1:minibusR2518",
+        "BusNam": "ავშნის III შეს. - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 217,
+    "fields": {
+        "name": "509",
+        "stop_id": "1:minibusR2487",
+        "BusNam": "სამხედრო დასახლება - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 218,
+    "fields": {
+        "name": "510",
+        "stop_id": "1:minibusR2544",
+        "BusNam": "გლდანის V მ/რ - მ/ს \"სარაჯიშვილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 219,
+    "fields": {
+        "name": "511",
+        "stop_id": "1:minibusR2607",
+        "BusNam": "გლდანის IIIა მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 220,
+    "fields": {
+        "name": "512",
+        "stop_id": "1:minibusR24653",
+        "BusNam": "გლდანის VI მ/რ - ილია ჭავჭავაძის გამზირი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 221,
+    "fields": {
+        "name": "513",
+        "stop_id": "1:minibusR13327",
+        "BusNam": "სვანეთის და სვანეთის I შესახვევის გადაკვეთა - ლიბანის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 222,
+    "fields": {
+        "name": "514",
+        "stop_id": "1:minibusR13300",
+        "BusNam": "ჭავჭავაძის ქ. - ლიბანის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 223,
+    "fields": {
+        "name": "515",
+        "stop_id": "1:minibusR25812",
+        "BusNam": "სულხან საბა ორბელიანის ქ. -  წყაროს ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 224,
+    "fields": {
+        "name": "516",
+        "stop_id": "1:minibusR11440",
+        "BusNam": "ჭიჭინაძის შეს. - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 225,
+    "fields": {
+        "name": "517",
+        "stop_id": "1:minibusR25168",
+        "BusNam": "ომარ ხიზანიშვილისა და კონსტანტინე ლესელიძის ქუჩების გადაკვეთა - მ/ს \"სადგურის მოედანი 1\" (წრე)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 226,
+    "fields": {
+        "name": "518",
+        "stop_id": "1:minibusR25554",
+        "BusNam": "დიდი დიღომი IV მ/რ - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 227,
+    "fields": {
+        "name": "519",
+        "stop_id": "1:minibusR24253",
+        "BusNam": "ისთ ფოინთი - ქეთევან დედოფლის გამზ. #91 \"ა\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 228,
+    "fields": {
+        "name": "520",
+        "stop_id": "1:minibusR24990",
+        "BusNam": "წმ. ბარბარეს უბანი - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 229,
+    "fields": {
+        "name": "521",
+        "stop_id": "1:minibusR25053",
+        "BusNam": "მეტრომშენი - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 230,
+    "fields": {
+        "name": "522",
+        "stop_id": "1:minibusR25397",
+        "BusNam": "თამარ მუჯირიშვილის ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 231,
+    "fields": {
+        "name": "523",
+        "stop_id": "1:minibusR24902",
+        "BusNam": "ვარკეთილის-3 III მ/რ (კორპ. #335) - მ/ს სამგორი (ქვედა)"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 232,
+    "fields": {
+        "name": "524",
+        "stop_id": "1:minibusR2803",
+        "BusNam": "მ/ს ვარკეთილი - ისთ ფოინთი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 233,
+    "fields": {
+        "name": "525",
+        "stop_id": "1:minibusR12977",
+        "BusNam": "მ/ს \"ავლაბარი\" - მახათას მთა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 234,
+    "fields": {
+        "name": "526",
+        "stop_id": "1:minibusR25236",
+        "BusNam": "ზურგოვანა - მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 235,
+    "fields": {
+        "name": "527",
+        "stop_id": "1:minibusR25211",
+        "BusNam": "ზაჰესის დასახლება - მ/ს \"დიდუბე\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 236,
+    "fields": {
+        "name": "528",
+        "stop_id": "1:minibusR25460",
+        "BusNam": "ნაკადულის ქ. -  სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 237,
+    "fields": {
+        "name": "529",
+        "stop_id": "1:minibusR11386",
+        "BusNam": "ბეჟანიშვილი ქ. - სადგურის მოედანი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 238,
+    "fields": {
+        "name": "530",
+        "stop_id": "1:minibusR25026",
+        "BusNam": "ვარკეთილი 3, IV მ/რ - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 239,
+    "fields": {
+        "name": "531",
+        "stop_id": "1:minibusR24614",
+        "BusNam": "ხიზანიშვილის და ლესელიძისა  ქ. გადაკვეთა  - ფალიაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 240,
+    "fields": {
+        "name": "532",
+        "stop_id": "1:minibusR24571",
+        "BusNam": "დუმბაძის გამზ. - თავისუფლების მოედ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 241,
+    "fields": {
+        "name": "533",
+        "stop_id": "1:minibusR25747",
+        "BusNam": "გადასასვლელი ხიდი - იმერეთის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 242,
+    "fields": {
+        "name": "534",
+        "stop_id": "1:minibusR25434",
+        "BusNam": "ლუბლიანას ქ. - ვარკეთილის IV მ/რ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 243,
+    "fields": {
+        "name": "535",
+        "stop_id": "1:minibusR24928",
+        "BusNam": "ბესარიონ ჭიჭინაძის ქ. - მ/ს \"სამგორი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 244,
+    "fields": {
+        "name": "536",
+        "stop_id": "1:minibusR25085",
+        "BusNam": "ლადო გუდიაშვილის ქ. - ლუბლიანას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 245,
+    "fields": {
+        "name": "537",
+        "stop_id": "1:minibusR25603",
+        "BusNam": "ნუცუბიძის IV მ/რ - მ/ს \"დელისი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 246,
+    "fields": {
+        "name": "538",
+        "stop_id": "1:minibusR25331",
+        "BusNam": "მ/ს დიდუბე - ორთაჭალის ც/ავტოსადგური"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 247,
+    "fields": {
+        "name": "539",
+        "stop_id": "1:minibusR25151",
+        "BusNam": "სადგურის მოედანი - დიდი დიღომი IV მ/რ"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 248,
+    "fields": {
+        "name": "540",
+        "stop_id": "1:minibusR25426",
+        "BusNam": "ილია ჭავჭავაძის გამზირი - სავაჭრო ცენტრი \"ისთ პოინტი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 249,
+    "fields": {
+        "name": "541",
+        "stop_id": "1:minibusR24587",
+        "BusNam": "დიდი დიღომი IV მ/რ - ამაღლების ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 250,
+    "fields": {
+        "name": "542",
+        "stop_id": "1:minibusR24537",
+        "BusNam": "დარკვეთის ქ. - გადასასვლელი ხიდი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 251,
+    "fields": {
+        "name": "543",
+        "stop_id": "1:minibusR25547",
+        "BusNam": "მ/ს ახმეტელის თეატრი - მ/ს სარაჯიშვილი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 252,
+    "fields": {
+        "name": "545",
+        "stop_id": "1:minibusR24891",
+        "BusNam": "ბ.ხმელნიცკის ქ. - მ/ს \"ისანი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 253,
+    "fields": {
+        "name": "546",
+        "stop_id": "1:minibusR24966",
+        "BusNam": "იყალთოს გორა - მ/ს \"ტექნიკური უნივერსიტეტი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 254,
+    "fields": {
+        "name": "547",
+        "stop_id": "1:minibusR25311",
+        "BusNam": "სამხედრო დასახლება- ბარათაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 255,
+    "fields": {
+        "name": "548",
+        "stop_id": "1:minibusR24164",
+        "BusNam": "ზაჰესის დასახლება - მ/ს \"ახმეტელის თეატრი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 256,
+    "fields": {
+        "name": "549",
+        "stop_id": "1:minibusR32959",
+        "BusNam": "წინანაურის ქ. - დიდი ხეივნის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 257,
+    "fields": {
+        "name": "550",
+        "stop_id": "1:minibusR25268",
+        "BusNam": "ვარკეთილი 3, I მ/რ - ლუბლიანას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 258,
+    "fields": {
+        "name": "551",
+        "stop_id": "1:minibusR24579",
+        "BusNam": "თბილისი მოლი - ანა პოლიტკოვსკაიას ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 259,
+    "fields": {
+        "name": "552",
+        "stop_id": "1:minibusR32979",
+        "BusNam": "მ/ს 300 არაგველი - ბაჟან კალანდაძის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 260,
+    "fields": {
+        "name": "553",
+        "stop_id": "1:minibusR32989",
+        "BusNam": "მ/ს ღრმაღელე - გვაზავას II შეს."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 261,
+    "fields": {
+        "name": "554",
+        "stop_id": "1:minibusR33033",
+        "BusNam": "მ/ს ვარკეთილი - თვალჭრელიზის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 262,
+    "fields": {
+        "name": "555",
+        "stop_id": "1:minibusR33041",
+        "BusNam": "შორაპნის II ქ. - მ/ს 300 არაგველი"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 263,
+    "fields": {
+        "name": "556",
+        "stop_id": "1:minibusR33048",
+        "BusNam": "გადასასვლელი ხიდი - ჩეჩელაშვილის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 264,
+    "fields": {
+        "name": "557",
+        "stop_id": "1:minibusR25405",
+        "BusNam": "კრწანისის ქ. - სამგორის ქ."
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 265,
+    "fields": {
+        "name": "558",
+        "stop_id": "1:minibusR33069",
+        "BusNam": "ნუცუბიძის I მ/რ  - მ/ს \"დელისი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 266,
+    "fields": {
+        "name": "567",
+        "stop_id": "1:minibusR24447",
+        "BusNam": "სამგორის ქ. - ყვარლისა და უშაკოვის ქ. გადაკვეთა"
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 267,
+    "fields": {
+        "name": "576",
+        "stop_id": "1:minibusR2681",
+        "BusNam": "ნიაბის ქ. - მ/ს \"ავლაბარი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 268,
+    "fields": {
+        "name": "580",
+        "stop_id": "1:minibusR24487",
+        "BusNam": "კრწანისის ქ. - მ/ს \"რუსთაველი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 269,
+    "fields": {
+        "name": "582",
+        "stop_id": "1:minibusR2785",
+        "BusNam": "ლილოს დასახლება - მ/ს \"ვარკეთილი\""
+    }
+},
+{
+    "model": "buses.buses",
+    "pk": 270,
+    "fields": {
+        "name": "583",
+        "stop_id": "1:minibusR2887",
+        "BusNam": "სამხედრო დასახლება -  მ/ს ვარკეთილი"
+    }
+}
+]

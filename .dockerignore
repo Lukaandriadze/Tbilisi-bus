@@ -22,6 +22,5 @@ __pycache__/
 /static
 
 # Docker-related files
-docker-compose.yml
 Dockerfile
 .dockerignore
