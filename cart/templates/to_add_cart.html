@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8" />
+    <title>გაჩერების დამატება</title>
+    <style>
+        :root {
+            --green-dark: #5A827E;
+            --green-medium: #84AE92;
+            --green-light: #B9D4AA;
+            --text-light: #FAFFCA;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--green-light), var(--green-medium));
+            color: var(--green-dark);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: var(--green-dark);
+            padding: 16px;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.4rem;
+            margin: 30px 0 20px;
+            user-select: none;
+            text-shadow: 0 1px 2px rgba(90,130,126,0.4);
+        }
+
+        form {
+            background-color: var(--text-light);
+            padding: 30px 40px;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(90,130,126,0.3);
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+        }
+
+        select {
+            padding: 12px 16px;
+            font-size: 1.1rem;
+            border: 2px solid var(--green-medium);
+            border-radius: 10px;
+            margin-bottom: 24px;
+            background-color: var(--text-light);
+            color: var(--green-dark);
+            appearance: none;
+            cursor: pointer;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--green-dark);
+            box-shadow: 0 0 8px var(--green-dark);
+        }
+
+        select option {
+            color: var(--green-dark);
+            background-color: var(--text-light);
+        }
+
+        select::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        select::-webkit-scrollbar-track {
+            background: var(--green-light);
+            border-radius: 3px;
+        }
+
+        select::-webkit-scrollbar-thumb {
+            background-color: var(--green-dark);
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 14px 20px;
+            background-color: var(--green-dark);
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover,
+        button:focus {
+            background-color: var(--green-medium);
+            box-shadow: 0 0 12px var(--green-medium);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #555;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="{% url 'MainPage:index' %}">← დაბრუნება მთავარ გვერდზე</a>
+</header>
+
+<h1>აირჩიე გაჩერება</h1>
+
+<form method="post">
+    {% csrf_token %}
+    <select name="bus_stop_id" required>
+        <option value="" disabled selected>აირჩიეთ გაჩერება</option>
+        {% for stop in bus_stops %}
+            <option value="{{ stop.stop_id }}">
+                {{ stop.name }} — {{ stop.arrival_time }} წუთი
+            </option>
+        {% endfor %}
+    </select>
+    <button type="submit">შემდეგი</button>
+</form>
+
+<footer>
+    &copy; 2025 ავტობუსების პროექტი მზიურისთვის
+</footer>
+
+</body>
+</html>

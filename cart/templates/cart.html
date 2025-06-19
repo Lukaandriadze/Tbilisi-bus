@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8" />
+    <title>ჩემი კალათა</title>
+    <style>
+        :root {
+            --green-dark: #5A827E;
+            --green-medium: #84AE92;
+            --green-light: #B9D4AA;
+            --text-light: #FAFFCA;
+            --bg-light: #F9FBE7;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--green-light), var(--green-medium));
+            color: var(--green-dark);
+        }
+
+        header {
+            padding: 16px 24px;
+            background-color: #5A827E;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            font-weight: 700;
+            font-size: 2.4rem;
+            color: var(--green-dark);
+        }
+
+        ul {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            background-color: var(--text-light);
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(90,130,126,0.3);
+        }
+
+        li {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--green-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        li:hover {
+            background-color: var(--green-light);
+            transition: 0.3s;
+        }
+
+        .empty-message {
+            text-align: center;
+            padding: 40px;
+            font-style: italic;
+            color: var(--green-medium);
+        }
+
+        form.delete-form {
+            margin: 0;
+        }
+
+        button.delete-btn {
+            background-color: #5A827E;
+            border: none;
+            color: var(--text-light);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button.delete-btn:hover {
+            background-color: #44665f;
+        }
+
+        .add-btn {
+            display: block;
+            background-color: var(--green-dark);
+            color: var(--text-light);
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+            margin: 30px auto 0;
+            max-width: 600px;
+            transition: 0.3s;
+        }
+
+        .add-btn:hover {
+            background-color: #44665f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="{% url 'MainPage:index' %}">← დაბრუნება მთავარ გვერდზე</a>
+</header>
+
+<h1>ჩემი კალათა</h1>
+
+<ul>
+    {% for item in items %}
+        <li>
+            <div>
+                <strong>გაჩერება:</strong> {{ item.bus_stop.name }}<br />
+                <strong>ავტობუსი:</strong> {{ item.bus.name }} - {{ item.bus.BusNam }}<br />
+                <strong>მოკლე სახელი:</strong> {{ item.short_name }}<br />
+                <strong>დრო:</strong> {{ item.selected_time }} წუთი
+            </div>
+            <form method="post" action="{% url 'cart:delete_item' item.id %}" class="delete-form">
+                {% csrf_token %}
+                <button type="submit" class="delete-btn">წაშლა</button>
+            </form>
+        </li>
+    {% empty %}
+        <li class="empty-message">კალათა ცარიელია</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'cart:choose_stop' %}" class="add-btn">+ გაჩერების დამატება</a>
+
+<footer>
+    &copy; 2025 ავტობუსების პროექტი მზიურისთვის
+</footer>
+
+</body>
+</html>

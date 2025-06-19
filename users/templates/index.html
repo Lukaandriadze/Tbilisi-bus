@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transport.ge - თბილისის ტრანსპორტი</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #5A827E, #84AE92);
+      color: #FAFFCA;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 24px 48px;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #FAFFCA;
+      letter-spacing: 2px;
+      text-shadow: 0 0 5px #2B3B36;
+      user-select: none;
+      background: rgba(90, 130, 126, 0.2);
+      backdrop-filter: blur(4px);
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 40px;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .hero-text {
+      flex: 1;
+      font-size: 3.2rem;
+      font-weight: 700;
+      color: #FAFFCA;
+      max-width: 600px;
+      line-height: 1.2;
+      text-shadow: 0 0 10px #2B3B36;
+    }
+
+    .cta-button {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-top: 30px;
+      background: #B9D4AA;
+      padding: 14px 36px;
+      color: #5A827E;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #B9D4AA88;
+      transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    .cta-button:hover {
+      background: #84AE92;
+      box-shadow: 0 10px 30px #84AE9288;
+      color: #FAFFCA;
+      transform: scale(1.05);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 25px;
+      flex: 1;
+      transform: skewY(-4deg);
+    }
+
+    .product-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+      background: #FAFFCA;
+      padding: 14px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+    }
+
+    .product-grid img:nth-child(1),
+    .product-grid img:nth-child(3) {
+      animation-name: floatUpDown;
+    }
+
+    .product-grid img:nth-child(2) {
+      animation-name: floatDownUp;
+    }
+
+    @keyframes floatUpDown {
+      0% { transform: translateY(-20px); }
+      100% { transform: translateY(20px); }
+    }
+
+    @keyframes floatDownUp {
+      0% { transform: translateY(20px); }
+      100% { transform: translateY(-20px); }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+      }
+
+      .hero-text {
+        text-align: center;
+        max-width: 100%;
+        font-size: 2.4rem;
+      }
+
+      .product-grid {
+        transform: none;
+        margin-top: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Transport.ge</header>
+
+  <section class="hero">
+    <div class="hero-text">
+      ბედნიერი მგზავრობა
+      <div>
+        <a href="{% url 'Buses' %}">
+          <button class="cta-button">დაწყება</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="product-grid">
+      <img src="https://cdn-icons-png.flaticon.com/512/7894/7894180.png" alt="მეტრო" title="მეტრო">
+      <img src="https://cdn-icons-png.flaticon.com/512/14703/14703667.png" alt="ავტობუსი" title="ავტობუსი">
+      <img src="https://cdn-icons-png.flaticon.com/512/4213/4213350.png" alt="გაჩერება" title="გაჩერება">
+    </div>
+  </section>
+
+</body>
+</html>
