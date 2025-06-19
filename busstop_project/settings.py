@@ -229,7 +229,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
-DEFAULT_FROM_EMAIL = "No Reply <lukaandriadze3@gmail.com>"
+DEFAULT_FROM_EMAIL = "No Reply"
 
 
 
