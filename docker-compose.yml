@@ -1,3 +1,5 @@
+version: '3.9'
+
 services:
   web:
     build:
@@ -5,9 +7,9 @@ services:
       dockerfile: Dockerfile
     command: >
       sh -c "python manage.py migrate &&
-            docker compose exec web python manage.py loaddata buses.json &&
-            docker compose exec web python manage.py loaddata busstop_data.json
-            python manage.py runserver 0.0.0.0:8000"
+             python manage.py loaddata buses.json &&
+             python manage.py loaddata busstop_data.json &&
+             python manage.py runserver 0.0.0.0:8000"
     ports:
       - "8000:8000"
     volumes:
