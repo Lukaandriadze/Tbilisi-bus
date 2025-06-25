@@ -1,0 +1,26 @@
+# Don't copy SQLite DB
+db.sqlite3
+
+# Don't copy environment variables
+.env
+
+# Don't copy Git metadata
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# Media and static
+/media
+/static
+
+# Docker-related files
+Dockerfile
+.dockerignore

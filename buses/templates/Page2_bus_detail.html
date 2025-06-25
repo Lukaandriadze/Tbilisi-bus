@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}გაჩერების დეტალები{% endblock %}
+
+{% block content %}
+<style>
+    :root {
+        --background-dark: #2c3e33;
+        --green-light: #9ebc8a;
+        --green-medium: #73946b;
+        --green-dark: #537d5d;
+        --background-nav: #FAFFCA; /* მე გეტყვი ამ ფერს ჩასვი თუ სჭირდება */
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 30px auto;
+        background-color: var(--background-nav);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(90,130,126,0.6);
+        color: var(--green-light);
+        user-select: none;
+    }
+
+    h2, h3 {
+        color: var(--green-light);
+        margin-bottom: 12px;
+    }
+
+    p, strong {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 6px 0;
+    }
+
+    .bus-info p {
+        margin: 4px 0;
+    }
+
+    .bus-stop-list {
+        margin-top: 20px;
+    }
+
+    .bus-stop-card {
+        background-color: var(--green-dark);
+        padding: 14px 20px;
+        margin-bottom: 12px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(83,125,93,0.6);
+        color: #d2d0a0;
+        user-select: text;
+    }
+
+    .back-button {
+        margin-top: 30px;
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: var(--green-medium);
+        color: var(--background-dark);
+        border-radius: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        user-select: none;
+    }
+
+    .back-button:hover,
+    .back-button:focus {
+        background-color: var(--green-light);
+        color: var(--background-dark);
+        box-shadow: 0 0 12px var(--green-light);
+    }
+</style>
+
+<div class="container">
+    <!-- Main Title -->
+    <h2>{{ bus.name }} დეტალები</h2>
+
+    <!-- Bus Stop Info -->
+    <div class="bus-info">
+        <p><strong>ID:</strong> {{ bus_stop.name }}</p>
+        <p><strong>მისამართი:</strong> {{ bus_stop.address }}</p>
+        <p><strong>ავტობუსი:</strong> {{ bus_stop.BusNam }}</p>
+    </div>
+
+    <!-- Nearby Stops -->
+    <h3>გაჩერებები ახლოს</h3>
+    <div class="bus-stop-list">
+        {% for stop in stops_data %}
+            <div class="bus-stop-card">
+                <h4>{{ stop.name }}</h4>
+                {% if stop.address %}
+                    <p>{{ stop.address }}</p>
+                {% endif %}
+            </div>
+        {% empty %}
+            <p>ბანაკი ახლომდებარე გაჩერებები ვერ მოიძებნა.</p>
+        {% endfor %}
+    </div>
+
+    <a href="{% url 'bus_stops' %}" class="back-button" aria-label="დაბრუნება ავტობუსების გვერდზე">← დაბრუნება</a>
+</div>
+{% endblock %}

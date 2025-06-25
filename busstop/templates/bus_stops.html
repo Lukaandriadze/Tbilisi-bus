@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% block title %}ავტობუსის გაჩერებები{% endblock %}
+{% load static %}
+
+{% block content %}
+<style>
+    .search-sort {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+        gap: 12px;
+    }
+    .search-sort form {
+        flex-grow: 1;
+        min-width: 220px;
+    }
+    input[type="text"] {
+        width: 80%;
+        padding: 10px 14px;
+        border: 2px solid var(--green-dark);
+        border-radius: 6px;
+        background-color: var(--green-light);
+        color: var(--green-dark);
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+    }
+    input[type="text"]:focus {
+        outline: none;
+        border-color: var(--green-medium);
+        box-shadow: 0 0 8px var(--green-medium);
+    }
+    button {
+        background-color: var(--green-medium);
+        color: var(--text-light);
+        border: none;
+        padding: 10px 24px;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: var(--green-dark);
+        color: var(--text-light);
+    }
+
+    .sorting a.btn-sort {
+        background-color: var(--green-dark);
+        color: var(--text-light);
+        padding: 8px 18px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        margin-left: 8px;
+    }
+    .sorting a.btn-sort:hover {
+        background-color: var(--green-light);
+        color: var(--green-dark);
+    }
+
+    .bus-stop-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+        gap: 20px;
+    }
+    .bus-stop-card {
+        background-color: var(--green-light);
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(90,130,126,0.4);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        user-select: none;
+        color: var(--green-dark);
+    }
+    .bus-stop-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 16px rgba(90,130,126,0.7);
+    }
+    .bus-logo {
+        width: 150px;
+        height: 110px;
+        margin-bottom: 16px;
+        filter: drop-shadow(0 0 3px var(--green-dark));
+    }
+    .bus-stop-card h3 {
+        margin: 0 0 8px 0;
+        font-size: 1.3rem;
+        color: var(--green-dark);
+    }
+    .bus-stop-card p {
+        margin: 4px 0;
+        font-weight: 600;
+    }
+    .btn-card-action {
+        margin-top: auto;
+        padding: 10px 24px;
+        background-color: var(--green-medium);
+        color: var(--text-light);
+        border-radius: 8px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-card-action:hover {
+        background-color: var(--green-dark);
+        color: var(--text-light);
+    }
+
+    .pagination {
+        margin-top: 30px;
+        text-align: center;
+        user-select: none;
+        color: var(--green-dark);
+    }
+    .page-link {
+        display: inline-block;
+        margin: 0 6px;
+        padding: 8px 16px;
+        background-color: var(--green-dark);
+        color: var(--text-light);
+        border-radius: 6px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .page-link:hover {
+        background-color: var(--green-light);
+        color: var(--green-dark);
+    }
+    .current-page {
+        font-weight: 700;
+        margin: 0 8px;
+        color: var(--green-medium);
+    }
+</style>
+
+<div class="search-sort">
+    <form method="get" action="">
+        <input type="text" name="search" placeholder="მოძებნე გაჩერება..." value="{{ search_query|default:'' }}">
+    </form>
+
+    <div class="sorting">
+        <a href="?sort=asc{% if search_query %}&search={{ search_query }}{% endif %}" class="btn-sort">დალაგება ა-ჰ</a>
+        <a href="?sort=desc{% if search_query %}&search={{ search_query }}{% endif %}" class="btn-sort">დალაგება ID_ით</a>
+    </div>
+</div>
+
+<h2 style="color: var(--green-dark); margin-bottom: 20px;">ყველა ავტობუსის გაჩერება</h2>
+
+<div class="bus-stop-list">
+    {% for stop in bus_stops %}
+    <div class="bus-stop-card" tabindex="0" role="button" aria-label="გაჩერება {{ stop.name }}">
+        <img src="{% static 'images/tablo_0.png' %}" alt="Bus Logo" class="bus-logo" />
+        <h3>{{ stop.name }}</h3>
+        <p>კოდი: {{ stop.stop_id }}</p>
+        <p>მოსვლის დრო: {{ stop.arrival_time }}</p>
+        <a href="{% url 'bus_stop_detail' stop_id=stop.stop_id %}" class="btn-card-action" aria-label="ნახე დეტალები {{ stop.name }}">დეტალები</a>
+    </div>
+    {% empty %}
+        <p style="color: var(--green-dark);">გაჩერება ვერ მოიძებნა.</p>
+    {% endfor %}
+</div>
+
+<div class="pagination">
+    {% if bus_stops.has_previous %}
+        <a href="?page=1&search={{ search_query }}&sort={{ request.GET.sort }}" class="page-link">პირველი</a>
+        <a href="?page={{ bus_stops.previous_page_number }}&search={{ search_query }}&sort={{ request.GET.sort }}" class="page-link">წინა</a>
+    {% endif %}
+    
+    <span class="current-page">
+        გვერდი {{ bus_stops.number }} - {{ bus_stops.paginator.num_pages }}
+    </span>
+
+    {% if bus_stops.has_next %}
+        <a href="?page={{ bus_stops.next_page_number }}&search={{ search_query }}&sort={{ request.GET.sort }}" class="page-link">შემდეგი</a>
+        <a href="?page={{ bus_stops.paginator.num_pages }}&search={{ search_query }}&sort={{ request.GET.sort }}" class="page-link">ბოლო</a>
+    {% endif %}
+</div>
+{% endblock %}

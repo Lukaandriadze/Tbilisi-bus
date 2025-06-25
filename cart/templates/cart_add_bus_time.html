@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8" />
+    <title>ავტობუსისა და დროის არჩევა</title>
+    <style>
+        :root {
+            --green-dark: #5A827E;
+            --green-medium: #84AE92;
+            --green-light: #B9D4AA;
+            --text-light: #FAFFCA;
+        }
+
+        body {
+            margin: 40px auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--green-light), var(--green-medium));
+            color: var(--green-dark);
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            background: var(--text-light);
+            padding: 30px 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(90,130,126,0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* space between blocks */
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px 14px;
+            font-size: 1rem;
+            border: 2px solid var(--green-medium);
+            border-radius: 10px;
+            background: var(--text-light);
+            color: var(--green-dark);
+            cursor: pointer;
+            appearance: none;
+            max-height: 160px;
+            overflow-y: auto;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        select:focus {
+            outline: none;
+            border-color: var(--green-dark);
+            box-shadow: 0 0 10px var(--green-dark);
+        }
+        select option {
+            background: var(--text-light);
+            color: var(--green-dark);
+        }
+        select::-webkit-scrollbar {
+            width: 6px;
+        }
+        select::-webkit-scrollbar-track {
+            background: var(--green-light);
+            border-radius: 3px;
+        }
+        select::-webkit-scrollbar-thumb {
+            background: var(--green-dark);
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 14px 20px;
+            background: var(--green-dark);
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            user-select: none;
+        }
+        button:hover,
+        button:focus {
+            background: var(--green-medium);
+            box-shadow: 0 0 12px var(--green-medium);
+        }
+    </style>
+</head>
+<body>
+    <h1>აირჩიეთ ავტობუსი და წუთები</h1>
+
+    <form method="post">
+        {% csrf_token %}
+
+        <div>
+            <label for="bus_short_name">აირჩიე ავტობუსი:</label>
+            <select name="bus_short_name" id="bus_short_name" required>
+                <option value="" disabled selected>ტრანსპორტები</option>
+                {% for name in short_names %}
+                    <option value="{{ name }}">{{ name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div>
+            <label for="selected_time">აირჩიე წუთები:</label>
+            <select name="selected_time" id="selected_time" required>
+                <option value="1">1 წუთი</option>
+                <option value="2">2 წუთი</option>
+                <option value="3">3 წუთი</option>
+                <option value="4">4 წუთი</option>
+                <option value="5">5 წუთი</option>
+                <option value="6">6 წუთი</option>
+                <option value="7">7 წუთი</option>
+                <option value="8">8 წუთი</option>
+                <option value="9">9 წუთი</option>
+                <option value="10">10 წუთი</option>
+            </select>
+        </div>
+
+        <button type="submit">დამატება</button>
+    </form>
+</body>
+</html>

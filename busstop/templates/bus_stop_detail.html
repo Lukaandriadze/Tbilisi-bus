@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}გაჩერების დეტალები{% endblock %}
+{% block content %}
+<style>
+    .detail-container {
+        background-color: var(--background-nav);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(90,130,126,0.6);
+        user-select: none;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .detail-container h2 {
+        color: var(--green-light);
+        margin-bottom: 16px;
+        font-size: 2rem;
+    }
+    .detail-container p {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 6px 0;
+    }
+    .bus-list {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 24px;
+    }
+    .bus-list li {
+        padding: 10px 0;
+        border-bottom: 1px solid var(--green-medium);
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: text;
+    }
+    .bus-list li:last-child {
+        border-bottom: none;
+    }
+    .bus-list li strong {
+        color: var(--green-light);
+        font-weight: 700;
+        margin-right: 12px;
+    }
+    .bus-list li span {
+        color: var(--green-medium);
+        font-weight: 600;
+    }
+    .back-button {
+        margin-top: 30px;
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: var(--green-medium);
+        color: var(--background-dark);
+        border-radius: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        user-select: none;
+    }
+    .back-button:hover,
+    .back-button:focus {
+        background-color: var(--green-light);
+        color: var(--background-dark);
+        box-shadow: 0 0 12px var(--green-light);
+    }
+</style>
+
+<div class="detail-container">
+    <h2>{{ bus_stop.name }}</h2>
+    <p><strong>ID:</strong> {{ bus_stop.stop_id }}</p>
+    <p><strong>მისამართი:</strong> {{ bus_stop.address }}</p>
+
+    <h3 style="margin-top: 30px; color: var(--green-light);">ტრანსპორტის სია</h3>
+    <ul class="bus-list">
+        {% for detail in bus_details %}
+        <li>
+            <strong>{{ detail.shortName }}</strong>
+            <span>→ {{ detail.headsign }} — {{ detail.realtimeArrivalMinutes }} წთ</span>
+        </li>
+        {% empty %}
+        <li>ტრანსპორტის ინფორმაცია ვერ მოიძებნა.</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'bus_stops' %}" class="back-button" aria-label="დაბრუნება ავტობუსების გვერდზე">← დაბრუნება</a>
+</div>
+{% endblock %}
